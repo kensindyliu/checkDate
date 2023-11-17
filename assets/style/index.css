@@ -1,0 +1,48 @@
+body {
+    background-color: #232323;
+}
+.container {
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+
+  .container h1{
+    text-align: center;
+  }
+  
+  .flexDiv {
+    display: flex;
+    align-items: center;
+  }
+
+  #userDate {
+    padding: 8px;
+    margin-right: 10px;
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .btnCheck {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 39px;
+  }
+  
+
+  #output {
+    height: 150px;
+    width: 450px;
+    margin-top: 20px;
+    background-color: black;
+  }
